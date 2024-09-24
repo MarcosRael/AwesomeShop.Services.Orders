@@ -7,11 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Commands\" />
     <Folder Include="DTOs\" />
     <Folder Include="InputModels\" />
-    <Folder Include="ViewModels\" />
-    <Folder Include="Queries\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AwesomeShop.Services.Orders.Core\AwesomeShop.Services.Orders.Core.csproj" />
   </ItemGroup>
 
 </Project>
