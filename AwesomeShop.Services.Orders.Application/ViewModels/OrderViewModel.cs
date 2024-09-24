@@ -31,20 +31,4 @@ namespace AwesomeShop.Services.Orders.Application.ViewModels
         }
 
     }
-
-    public class OrderItemInputModel
-    {
-    }
-
-    public class DeliveryAddressInputModel
-    {
-    }
-
-    public class PaymentAddressInputModel
-    {
-    }
-
-    public class PaymentInfoInputModel
-    {
-    }
 }

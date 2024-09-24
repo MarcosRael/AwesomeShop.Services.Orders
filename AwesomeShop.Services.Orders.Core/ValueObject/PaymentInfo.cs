@@ -7,6 +7,10 @@ namespace AwesomeShop.Services.Orders.Core.ValueObject
 {
     public class PaymentInfo
     {
+        public PaymentInfo()
+        {
+        }
+
         public PaymentInfo(string cardNumber, string fullName, string expiration, string cvv)
         {
             CardNumber = cardNumber;
